@@ -1,0 +1,12 @@
+torch
+transformers
+datasets
+soundfile
+numpy
+librosa
+evaluate
+sacrebleu
+nltk
+huggingface_hub
+accelerate>=0.26.0
+tensorboard

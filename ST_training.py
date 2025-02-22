@@ -49,6 +49,7 @@ task = "translate"
 
 # Update model config for translation
 model.config.forced_decoder_ids = processor.get_decoder_prompt_ids(language=source_language, task=task)
+model.config.suppress_tokens = None
 
 def preprocess_function(batch):
     # Process input audio
